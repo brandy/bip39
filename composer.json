@@ -1,5 +1,5 @@
 {
-    "name": "blocker/bip39",
+    "name": "cryptoishere/bip39",
     "description": "Easy to use, multi-language BIP39 implementation for PHP.",
     "type": "library",
     "license": "MIT",
