@@ -1,8 +1,8 @@
 <?php
 
-namespace Blocker\Bip39\Util;
+namespace Cryptoishere\Bip39\Util;
 
-use Blocker\Bip39\Buffer\BitBuffer;
+use Cryptoishere\Bip39\Buffer\BitBuffer;
 
 /**
  * Class Entropy.
