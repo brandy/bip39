@@ -1,10 +1,10 @@
 <?php
 
-namespace Blocker\Bip39;
+namespace Cryptoishere\Bip39;
 
-use Blocker\Bip39\Buffer\BitBuffer;
-use Blocker\Bip39\Util\Entropy;
-use Blocker\Bip39\Util\WordList;
+use Cryptoishere\Bip39\Buffer\BitBuffer;
+use Cryptoishere\Bip39\Util\Entropy;
+use Cryptoishere\Bip39\Util\WordList;
 
 /**
  * Class Bip39.
