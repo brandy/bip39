@@ -20,7 +20,7 @@ It means all code is over commented with detailed information about each single 
 Standard composer installation:
 
 ```bash
-composer require blocker/bip39
+composer require cryptoishere/bip39
 ```
 
 ## 3. Concepts:
@@ -42,7 +42,7 @@ If you already have a value you want to encode:
 <?php
 
 // aliases.
-use Blocker\Bip39\Util\Entropy;
+use Cryptoishere\Bip39\Util\Entropy;
 
 $entropy = new Entropy($dataInHexadecimal);
 ```
@@ -53,7 +53,7 @@ or, if you want to generate some data to then create a private key, one could:
 <?php
 
 // aliases.
-use Blocker\Bip39\Util\Entropy;
+use Cryptoishere\Bip39\Util\Entropy;
 
 // the parameter here is the size, in bits, of the random data to be generated.
 // values can be between 128 and 256, and must be multiples of 32.
@@ -68,8 +68,8 @@ Just as simple as using the entropy, parsing from entropy into a word sequence a
 ```php
 
 // aliases.
-use Blocker\Bip39\Bip39;
-use Blocker\Bip39\Util\Entropy;
+use Cryptoishere\Bip39\Bip39;
+use Cryptoishere\Bip39\Util\Entropy;
 
 // a word sequence provided by the user.
 $some128bitValueAlreadyEncoded = 'walnut antenna forward shuffle invest legal confirm polar hope timber pear cover';
@@ -89,8 +89,8 @@ And, just as easy as encoding:
 ```php
 
 // aliases.
-use Blocker\Bip39\Bip39;
-use Blocker\Bip39\Util\Entropy;
+use Cryptoishere\Bip39\Bip39;
+use Cryptoishere\Bip39\Util\Entropy;
 
 // some entropy value to be encoded with BIP39.
 $previousGeneratedEntropyHex = 'f6c1396f63b75efecbbd3b6d7c468818';
