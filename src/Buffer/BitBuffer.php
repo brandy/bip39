@@ -1,6 +1,6 @@
 <?php
 
-namespace Blocker\Bip39\Buffer;
+namespace Cryptoishere\Bip39\Buffer;
 
 use Illuminate\Support\Collection;
 use GMP;
