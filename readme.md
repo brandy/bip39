@@ -1,7 +1,7 @@
 # PHP BIP39
 
-[![Latest Stable Version](https://poser.pugx.org/blocker/bip39/v/stable)](https://packagist.org/packages/blocker/bip39)
-[![License](https://poser.pugx.org/blocker/bip39/license)](https://packagist.org/packages/blocker/bip39)
+[![Latest Stable Version](https://poser.pugx.org/cryptoishere/bip39/v/stable)](https://packagist.org/packages/cryptoishere/bip39)
+[![License](https://poser.pugx.org/cryptoishere/bip39/license)](https://packagist.org/packages/cryptoishere/bip39)
 
 An easy to use, multilingual, stand alone, and blockchain independent implementation of the **[BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) proposal for PHP.
 
