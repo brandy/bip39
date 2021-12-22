@@ -11,13 +11,13 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=8.0.0",
         "ext-gmp": "*",
-        "illuminate/support": "^5.6"
+        "illuminate/support": "^8.77"
     },
     "autoload": {
         "psr-4": {
-            "Blocker\\Bip39\\": "src/"
+            "Cryptoishere\\Bip39\\": "src/"
         }
     },
     "require-dev": {
